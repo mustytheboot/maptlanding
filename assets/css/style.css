@@ -247,7 +247,10 @@ h5,
 h6 {
 	margin: 20px 0 15px;
 	font-weight: 300;
+	color:#9E4C9D;
 }
+
+h5 {color:#595959;}
 
 h6 {
 	margin: 20px 0 10px;
@@ -336,11 +339,11 @@ span {
 }
 
 .light-text {
-	color: #ffffff;
+	color: #595959;
 }
 
 .light-text .sub-heading {
-	color: #ffffff;
+	color: #595959;
 }
 
 .light-text .fa {
@@ -4990,7 +4993,7 @@ body.always-mobile .fixed-menu .navigation-header.white-dropdown .navigation-bar
 	background-size: cover;
 	padding: 0 0 30px;
 	font-weight: 300;
-	background-image: url('../img//background/geobg.jpg');
+	background-image: url('../img/packt/mapt-bg.png');
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-attachment: fixed;
@@ -5637,6 +5640,7 @@ body.always-mobile .fixed-menu .navigation-header.white-dropdown .navigation-bar
 
 .about-section {
 	padding: 60px 0 0;
+	background: #ECECEC
 }
 
 .about-section .howitworks {
@@ -5684,7 +5688,7 @@ body.always-mobile .fixed-menu .navigation-header.white-dropdown .navigation-bar
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
-	background-image: url('../img/background/geobg.jpg');
+	background-image: url('../img/packt/mapt-bg.png');
 	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: fixed;
@@ -5715,7 +5719,7 @@ body.always-mobile .fixed-menu .navigation-header.white-dropdown .navigation-bar
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
-	background-image: url('../img/background/geobg.jpg');
+	background-image: url('../img/packt/mapt-bg.png');
 	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: fixed;
