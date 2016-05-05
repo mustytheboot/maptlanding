@@ -235,7 +235,7 @@ h5,
 h6,
 .heading {
 	display: block;
-	font-family: "Lato", "Helvetica Neue", Arial, Helvetica, sans-serif;
+	font-family: 'roboto' ,Helvetica,Arial,sans-serif;
 	line-height: 1.1;
 }
 
@@ -258,7 +258,7 @@ h6 {
 
 .heading {
 	margin: 0 0 10px;
-	font-weight: 400;
+	font-weight: 300;
 }
 
 .sub-title {
@@ -4993,7 +4993,7 @@ body.always-mobile .fixed-menu .navigation-header.white-dropdown .navigation-bar
 	background-size: cover;
 	padding: 0 0 30px;
 	font-weight: 300;
-	background-image: url('../img/packt/mapt-bg.png');
+	background:#333A40;
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-attachment: fixed;
@@ -5002,6 +5002,7 @@ body.always-mobile .fixed-menu .navigation-header.white-dropdown .navigation-bar
 .footer p {
 	font-size: 15px;
 	line-height: 1.6;
+	color: #F0F0F0;
 }
 
 .footer a:hover {
@@ -5018,7 +5019,7 @@ body.always-mobile .fixed-menu .navigation-header.white-dropdown .navigation-bar
 
 .footer .heading {
 	margin-bottom: 25px;
-	font-weight: 500;
+	font-weight: 300;
 	text-transform: uppercase;
 	text-align: center;
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.36);
@@ -5640,7 +5641,9 @@ body.always-mobile .fixed-menu .navigation-header.white-dropdown .navigation-bar
 
 .about-section {
 	padding: 60px 0 0;
-	background: #ECECEC;
+	background: url("../img/packt/about-bgtile.png") repeat;
+	border-top: 5px solid #abded5;
+	border-bottom: 5px solid #abded5;
 }
 
 .about-section .howitworks {
@@ -5679,7 +5682,7 @@ body.always-mobile .fixed-menu .navigation-header.white-dropdown .navigation-bar
 .features-list-section .highlight {
 	margin: 12px 0 13px;
 	font-family: "Lato", "Helvetica Neue", Arial, Helvetica, sans-serif;
-	font-weight: 700;
+	font-weight: 300;
 	font-size: 16px;
 	line-height: 1.7;
 }
@@ -5692,6 +5695,8 @@ body.always-mobile .fixed-menu .navigation-header.white-dropdown .navigation-bar
 	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: fixed;
+	border-top: 5px solid #abded5;
+	border-bottom: 5px solid #abded5;
 }
 
 .newsletter-section article {
@@ -5725,6 +5730,8 @@ body.always-mobile .fixed-menu .navigation-header.white-dropdown .navigation-bar
 	background-attachment: fixed;
 	overflow: hidden;
 	padding: 20px 0 0;
+	border-top: 5px solid #abded5;
+	border-bottom: 5px solid #abded5;
 }
 
 .feedback-section .section-header {
@@ -6792,7 +6799,7 @@ h6 {
 	display: inline-block;
 	width: auto;
 	font-size: 14px;
-	font-weight: 400;
+	font-weight: 300;
 	text-transform: none;
 }
 
