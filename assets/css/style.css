@@ -5669,6 +5669,18 @@ body.always-mobile .fixed-menu .navigation-header.white-dropdown .navigation-bar
 	background-attachment: fixed;
 }
 
+/* Sub header above the laptop */
+
+.features-section div.section-header{
+	padding:40px 0 0;
+}
+
+.features-section p.sub-header {
+	color:white;
+}
+
+
+
 .features-list-section{
 	padding: 75px 0 50px;
 	background-size: cover;
@@ -5677,6 +5689,8 @@ body.always-mobile .fixed-menu .navigation-header.white-dropdown .navigation-bar
 	background-position: center;
 	background-attachment: fixed;
 }
+
+
 
 .features-list-section article {
 	margin: 0 0 60px;
@@ -5689,11 +5703,15 @@ body.always-mobile .fixed-menu .navigation-header.white-dropdown .navigation-bar
 
 .features-list-section article p {
 	font-size: 15px;
-	color: #8d8d8d;
+	color: white;
 }
 
 .features-list-section article:hover .icon {
 	opacity: 0.6;
+}
+
+.features-list-section article span.heading {
+	color: #FF9400;
 }
 
 .features-list-section .highlight {
@@ -5702,6 +5720,7 @@ body.always-mobile .fixed-menu .navigation-header.white-dropdown .navigation-bar
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 1.7;
+	color: #FF9400;
 }
 
 .newsletter-section {
