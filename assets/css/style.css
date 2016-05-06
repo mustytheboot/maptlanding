@@ -4990,13 +4990,14 @@ body.always-mobile .fixed-menu .navigation-header.white-dropdown .navigation-bar
 .footer {
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
-	background-size: cover;
+	background: #333A40;
 	padding: 0 0 30px;
 	font-weight: 300;
-	background-image: url('../img/packt/mapt-bg.png');
+	/*background-image: url('../img/packt/mapt-bg.png');
+	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: top center;
-	background-attachment: fixed;
+	background-attachment: fixed;*/
 }
 
 .footer p {
@@ -5657,7 +5658,11 @@ body.always-mobile .fixed-menu .navigation-header.white-dropdown .navigation-bar
 .features-section {
 	margin-bottom: 50px;
 	padding: 0 0 30px;
-	background-color: #465261;
+	background-size: cover;
+	background-image: url('../img/packt/mapt-bgdk.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
 }
 
 .features-list-section article {
@@ -5722,11 +5727,12 @@ body.always-mobile .fixed-menu .navigation-header.white-dropdown .navigation-bar
 .feedback-section {
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
-	background-size: cover;
+	background:white;
+	/*background-size: cover;
 	background-image: url('../img/packt/mapt-bg.png');
 	background-repeat: no-repeat;
 	background-position: center;
-	background-attachment: fixed;
+	background-attachment: fixed;*/
 	overflow: hidden;
 	padding: 20px 0 0;
 <<<<<<< HEAD
