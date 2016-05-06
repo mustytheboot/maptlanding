@@ -5731,7 +5731,7 @@ body.always-mobile .fixed-menu .navigation-header.white-dropdown .navigation-bar
 	overflow: hidden;
 	padding: 20px 0 0;
 	border-top: 5px solid #abded5;
-	border-bottom: 5px solid #abded5;
+	/*border-bottom: 5px solid #abded5;*/
 }
 
 .feedback-section .section-header {
