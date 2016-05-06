@@ -2434,7 +2434,7 @@ input[type=checkbox]:focus {
 	font-size: 16px;
 	font-weight: 300;
 	line-height: 1.86;
-	color: #606060;
+	color: white;
 }
 
 .featured-tab li > a .tab-icon {
@@ -5641,6 +5641,8 @@ body.always-mobile .fixed-menu .navigation-header.white-dropdown .navigation-bar
 .about-section {
 	padding: 60px 0 0;
 	background: url('../img/packt/about-bgtile.png') repeat;
+	border-top: #a2d3cb 5px solid;
+	border-bottom: #a2d3cb 5px solid;
 }
 
 .about-section .howitworks {
@@ -5655,7 +5657,7 @@ body.always-mobile .fixed-menu .navigation-header.white-dropdown .navigation-bar
 .features-section {
 	margin-bottom: 50px;
 	padding: 0 0 30px;
-	background-color: #f0f0f0;
+	background-color: #465261;
 }
 
 .features-list-section article {
@@ -5692,6 +5694,8 @@ body.always-mobile .fixed-menu .navigation-header.white-dropdown .navigation-bar
 	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: fixed;
+	border-top: #a2d3cb 5px solid;
+	border-bottom: #a2d3cb 5px solid;
 }
 
 .newsletter-section article {
